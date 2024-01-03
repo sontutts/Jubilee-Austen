@@ -1,0 +1,195 @@
+/****** Global Styles ******/
+/* * {
+    outline: red dotted;
+} */
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #5e5d5e;
+}
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/****** Header Styles ******/
+.homepage-hero {
+    background: url('../img/full-background.png'), #f9efef;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header h1 {
+    font-size: 30px;
+    color: #7b7e54;
+    width: 300px;
+    float: left;
+    padding: 65px 0px 65px 25px;
+    font-family: 'Lora', serif;
+}
+
+header nav {
+    width: 800px; 
+    float: right;
+    text-align: right;
+    padding: 75px 25px 75px 0px
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #727172;
+    padding-left: 80px;
+}
+
+header h2 {
+    font-size: 72px;
+    line-height: 80px;
+    color: #817F80;
+    font-family: 'Lora', serif;
+    width: 1000px;
+    clear: both;
+    padding: 20px 0px 20px 25px;
+}
+
+h3,
+a {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/****** About Styles ******/
+#about .content-wrapper{
+    padding: 80px 0px;
+}
+
+#about h2 {
+    font-size: 36px;
+    font-family: 'Lora', serif;
+    padding-left: 50px;
+    color: #817F80;
+    font-weight: 700;
+}
+
+#about p {
+    float: left;
+    width: 500px;
+    padding: 0px 50px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+/****** Skill Styles ******/
+#skills {
+    background: #f5f5f5;
+    text-align: center;
+}
+
+#skills .content-wrapper {
+    padding: 115px 0px;
+} 
+
+#skills div .skill-list {
+    float: left;
+    width: 300px;
+    padding: 40px 50px 115px 50px;
+}
+
+#skills h2 {
+    font-size: 36px;
+    font-family: 'Lora', serif;
+}
+
+#skills h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 50px 20px 50px;
+}
+
+#skills p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+/****** Contact Styles ******/
+#contact {
+    background: #f9e9e9;
+}
+
+#contact .content-wrapper{
+    padding: 110px 0px;
+}
+
+#contact .contact-image{
+    float: left;
+    width: 600px;
+}
+
+#contact #contact-image {
+    width: 475px;
+    height: 325px;
+    border: white solid 12px;
+    margin: 0px 50px;
+    box-sizing: border-box;   
+}
+
+#contact .contact-info {
+    float: left;
+    width: 600px;
+    padding: 0px 0px 0px 100px;
+    box-sizing: border-box;
+}
+
+#contact h2 {
+    font-size: 36px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+
+#contact h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+#class #lets-meet {
+    margin-bottom: 5px;
+}
+
+#contact #social-media {
+    margin: 20px 0px 5px 0px;
+}
+
+#contact #envelope-icon {
+    margin-right: 5px;
+}
+
+#contact #email {
+    color: #5e5d5e;
+    text-decoration: none;
+}
+
+#contact ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 40px;
+}
